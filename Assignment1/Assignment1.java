@@ -12,11 +12,15 @@ public class Assignment1 {
 
         Scanner input = new Scanner(System.in); //Creating a input variable with type Scanner
 
-        System.out.printf("%s", "Please enter the radius of the circle:"); //Asking the user for input
-        int r = input.nextInt(); //Storing input in variable r
-        System.out.printf("%s = %f%n", "Diameter", 2 * Math.PI); //Output diameter
-        System.out.printf("%s = %f%n", "Circumference", 2 * Math.PI * r); //Output circumference
-        System.out.printf("%s = %f%n", "Area", Math.PI * (r * r)); //Output area
+        // System.out.printf("%s", "Please enter the radius of the circle:"); //Asking the user for input
+        // int r = input.nextInt(); //Storing input in variable r
+        // System.out.printf("%s = %f%n", "Diameter", 2 * Math.PI); //Output diameter
+        // System.out.printf("%s = %f%n", "Circumference", 2 * Math.PI * r); //Output circumference
+        // System.out.printf("%s = %f%n", "Area", Math.PI * (r * r)); //Output area
+        int array[] = new int[10]; //Creating an array with the size of the radius
+
+        System.out.printf("%s%n", Integer.toString(array[1])); //Output the length of the array
+
 
         input.close();
         System.exit(0);
